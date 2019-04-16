@@ -20,7 +20,7 @@ A new Flutter project.
 
    ```bash
    $ mkdir ~/SDKs
-   $ mv ~/Downloads/flutter
+   $ mv ~/Downloads/flutter ~/SDKs
    ```
 
    PATH 추가 (.zshrc or .bashrc 파일 마지막 줄)
