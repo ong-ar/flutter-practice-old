@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../first/index.dart';
 
 class Home extends StatefulWidget {
   Home({Key key, this.title}) : super(key: key);
@@ -73,6 +74,12 @@ class _HomeState extends State<Home> {
               '$_counter',
               style: Theme.of(context).textTheme.display1,
             ),
+            RaisedButton(
+                child: Text("first"),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => First()));
+                })
           ],
         ),
       ),
